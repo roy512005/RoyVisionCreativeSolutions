@@ -29,7 +29,7 @@ ol,ul,dl {
     list-style: none
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .social-icons {
@@ -314,7 +314,7 @@ input[type=checkbox] {
 .social-icons {
     position: fixed;
     left: 2rem;
-    top: 50%;
+    top: 60%;
     z-index: 1
 }
 
@@ -2291,11 +2291,10 @@ a:not(.trc-btn-primary) {
 .portfolio-box p{
     color: #5C5D5D;
 }
-.portfolio-box div > span {
+.portfolio-box div h4 > span {
     font-size: 26px;
     font-weight: 500;
     color: #0DB75F;
-    margin-left: 6px;
 }
 
 
@@ -3257,4 +3256,74 @@ section.get_touch_main {
     padding: 0;
     margin: 0;
     text-align: center;
+}
+
+.form-group p {
+    margin-bottom: 0;
+}
+.erros {
+    margin-bottom: 0;
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form-group input,
+.form-group textarea{
+  margin-bottom: 1rem;
+}
+
+.success_msg {
+    position: fixed;
+    top: -27%;
+    right: 77px;
+    z-index: 1;
+    width: fit-content;
+    background-color: white;
+    padding: 9px 13px;
+    border-radius: 5px;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.09);
+    transition: all 0.6s linear;
+    visibility: hidden;
+}
+.success_msg:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    background: #0DB75F;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+}
+.success_msg i {
+    height: 25px;
+    border-radius: 50%;
+    width: 25px;
+    background: #0DB75F;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.success_msg p {
+    margin: auto;
+    font-weight: 500;
+}
+
+.success_msg.show_Success{
+ top: 15%;
+ visibility: visible;
+}
+@keyframes wcover {
+    100%{
+        width: 100%;
+    }
+}
+.success_msg.show_Success:after{
+    animation: wcover 2s linear;
 }

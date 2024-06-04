@@ -26,6 +26,8 @@
 
   <link rel="stylesheet" href="https://demo.themerec.com/item/wordpress/thepro-dark/wp-content/themes/thepro/assets/css/lib/kursor.css?ver=0.1.5">
     
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
   <title>My Protfolio</title>
@@ -41,17 +43,17 @@
 
     <div class="social-icons">
 
-      <div class="follow-label">Follow Me </div>
+      <div class="follow-label">Available For Consulting</div>
 
       <ul class="list-unstyled list-social-icons">
 
-        <li><a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#0" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 
-        <li><a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#0" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 
-        <li><a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:ranupam369@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 
-        <li><a href="#0"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="linkedin.com/in/anupam-roy-95011824b" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
       </ul>
 
@@ -60,7 +62,7 @@
     <section class="banner_main">
       <div class="container">
         <div class="row">
-          <div class="col-6 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">
+          <div class="col-lg-6 col-12 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">
             <div class="banner_content">
               <h5>Hello !</h5>
               <div>
@@ -101,7 +103,7 @@
             </div>
           </div>
 
-          <div class="col-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
+          <div class="col-lg-6 col-12 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
             <div class="banner_image">
               <img src="./assets/image/banner-image.png" data-aos="zoom-out" data-aos-duration="1200" class="aos-init aos-animate" alt="">
             </div>
@@ -148,11 +150,11 @@
               <div class="elementor-counter">
                 <div class="elementor-counter-number-wrapper">
                   <span class="elementor-counter-number-prefix"></span>
-                  <span class="elementor-counter-number counter">90</span>
+                  <span class="elementor-counter-number counter">1</span>
                   <span class="elementor-counter-number-suffix">+</span>
                 </div>
               </div>
-              <h2 class="elementor-heading-title elementor-size-default">Projects Completed</h2>
+              <h2 class="elementor-heading-title elementor-size-default">Year of Experience</h2>
             </div>
 
           </div>
@@ -348,8 +350,8 @@
 
     <section class="portfolio_section">
       <div class="container">
-        <div class="row">
-          <div class="col-5">
+        <div class="row gy-lg-0 gy-5">
+          <div class="col-lg-5 col-12">
             <div class="common_title protfolio_content aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">
               <h2>My Creative Work Latest <span>Project</span></h2>
               <p>Welcome to my portfolio! Here's a glimpse into some of my recent projects that showcase my expertise and creativity in web design and development.</p>
@@ -357,7 +359,7 @@
             </div>
           </div>
 
-          <div class="col-7">
+          <div class="col-lg-7 col-12">
 
             <div class="portfolio_projects aos-init aos-animate" data-aos="fade-left" data-aos-duration="1200">
 
@@ -635,8 +637,8 @@
           <p>If you are interested in collaborating or have any questions, fill out the form below, and I'll get back to you as soon as possible.</p>
         </div>
 
-        <div class="row gx-5" id="contact">
-          <div class="col-8 offset-2">
+        <div class="row gx-lg-5 gx-0" id="contact">
+          <div class="col-lg-8 col-sm-l0 col-12  offset-lg-2 offset-sm-0 offset-0">
             <h4 class="elementor-heading-title elementor-size-default mb-3">Message Me</h4>
             <form id="contactForm" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
               <!-- <div style="display: none;">
@@ -647,8 +649,13 @@
                 <input type="hidden" name="_wpcf7_container_post" value="351">
                 <input type="hidden" name="_wpcf7_posted_data_hash" value="">
               </div> -->
+
+              <div class="success_msg">
+                <i class="fa fa-check" aria-hidden="true"></i>
+                <p>Your form has been successfully submitted! Thank you!</p>
+              </div>
               
-              <div class="row gy-4">
+              <div class="row gy-lg-4 gy-2">
                 
                 <div class="col-12 col-md-6 form-group aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">
                   <p>
@@ -750,85 +757,9 @@
             </div>
           </div> -->
         </div>
-
       </div>
-
     </section>
 
-    <!-- <section class="main-hadder">
-
-      <header class="header">
-
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-lg-12">
-
-              <h1 class="display-6 lh-1"> Hi There! </h1>
-
-              <h4 class="display-3 fw-bold lh-1 mb-3">I am
-
-                <span class="typing_text trc-testimonials-83085"></span>
-
-                <script>
-                  var typed = new Typed(".typing_text.trc-testimonials-83085", {
-                    strings: [
-                      'Anupam Roy', 'Designer', 'Developer', 'Freelancer',],
-                    typeSpeed: 100,
-                    backSpeed: 60,
-                    loop: true,
-                    cursorChar: '|',
-                  });
-                </script>
-
-              </h4>
-
-              <h2 class="display-6 mb-4">I make the complex simple.</h2>
-
-              <a class="trc-btn-primary" href="#0" role="button" href="#0"> Download CV </a>
-
-            </div>
-
-            <div class="col-12">
-
-              <div class="contact-info">
-
-                <ul class="list-unstyled">
-
-                  <li>
-                    <h4 class="label-info">Email</h4>
-                    <span class="value-info">
-                      <a href="mailto:" class="__cf_email__">demo@gmail.com</a>
-                    </span>
-                  </li>
-
-                  <li>
-                    <h4 class="label-info">Phone</h4>
-                    <a href="#" class="value-info">+91 345 445 5322</a>
-                  </li>
-
-                  <li>
-                    <h4 class="label-info">Location</h4>
-                    <span class="value-info">New York, USA</span>
-                  </li>
-
-                </ul>
-
-              </div>
-
-              <a href="#scroll_to" class="scroll-down">
-                <div class="scroll-mouse"></div>
-                <div class="scroll-line"></div>
-              </a>
-
-            </div>
-
-          </div>
-
-      </header>
-
-    </section> -->
 
     <section class="footer">
       <div class="container">
@@ -856,6 +787,10 @@
 
 <script>
 
+  (function(){
+      emailjs.init("7UzXb-aAHKwkUnnhK");
+    })();
+
     let form = document.querySelector("#contactForm");
     let nameInput = document.querySelector(".name");
     let emailInput = document.querySelector(".email");
@@ -865,6 +800,8 @@
     let nameError = document.querySelector("#nameError");
     let emailError = document.querySelector("#emailError");
     let subjectError = document.querySelector("#subjectError");
+
+    let success_msg= document.querySelector('.success_msg');
   
     // Function to validate name
     function validateName() {
@@ -935,13 +872,19 @@
       }
   
       // Form data is valid, send it using EmailJS
-      emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+      emailjs.send("service_xxjpucg", "template_4p7myhy", {
         name: nameInput.value,
         email: emailInput.value,
         subject: subjectInput.value,
         message: messageInput.value
       })
       .then(function(response) {
+
+        success_msg.classList.add('show_Success');
+        setTimeout(() => {
+          success_msg.classList.remove('show_Success');
+        }, 2000);
+
         console.log('SUCCESS!', response.status, response.text);
         // Clear input fields if necessary
         nameInput.value = "";

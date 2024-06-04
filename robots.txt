@@ -1,0 +1,17 @@
+User-agent: HTTrack
+Disallow: /
+
+User-agent: WebZip
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: *
+Disallow: / # Disallow all user-agents from scraping

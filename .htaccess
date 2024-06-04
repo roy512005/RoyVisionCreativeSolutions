@@ -1,0 +1,12 @@
+# Block HTTrack
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} ^.*HTTrack.*$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*WebZip.*$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*Wget.*$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*Teleport.*$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*WebCopier.*$ [NC]
+RewriteRule .* - [F,L]
+
+# Optionally, block empty user agents
+RewriteCond %{HTTP_USER_AGENT} ^-?$
+RewriteRule .* - [F,L]
