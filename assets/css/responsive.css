@@ -68,7 +68,7 @@
 
 @media (max-width:480px) {
     .mabile_sociel{
-        display: block;
+        display: flex;
     }
     .header {
         padding: 17px 0px 0px;

@@ -1322,9 +1322,15 @@ body.elementor-editor-active .social-icons,body.elementor-editor-active .back-to
 .mabile_sociel{
     float: right;
     display: none;
+    margin: 0;
+    align-items: center;
+    height: 100%;
+    padding: 0px 20px;
 }
-.mabile_sociel li{
+
+.mabile_sociel li {
     display: inline-block;
+    margin: 0px 10px;
 }
 .mabile_sociel li i{
     color: #0DB75F;
