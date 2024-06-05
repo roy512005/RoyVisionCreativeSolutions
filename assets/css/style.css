@@ -1335,23 +1335,22 @@ body.elementor-editor-active .social-icons,body.elementor-editor-active .back-to
         margin-bottom:10px
     }
 }
-
+.logo img{
+    height: 100px;
+    width: auto;
+    float: left;
+}
 .header {
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center
+    padding: 0px 0px;
 }
 
-@media(max-width: 767px) {
+/* @media(max-width: 767px) {
     .header {
         height:100%;
         display: block;
         padding-top: 8rem
     }
-}
+} */
 
 .header .typed-cursor {
     font-weight: 400
@@ -3046,6 +3045,9 @@ section{
 
 
 
+.banner_main{
+    padding: 0px 0px;
+}
 
 .banner_content li {
     display: inline-block;
@@ -3056,7 +3058,7 @@ section{
 }
 
 .banner_content {
-    padding: 100px 0px;
+    padding: 85px 0px;
     gap: 20px;
     display: grid;
 }
