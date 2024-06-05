@@ -67,6 +67,15 @@
 
 
 @media (max-width:480px) {
+    .mabile_sociel{
+        display: block;
+    }
+    .header {
+        padding: 17px 0px 0px;
+    }
+    .logo img {
+        height: 70px;
+    }
     .success_msg p {
         margin: auto;
         font-weight: 500;
